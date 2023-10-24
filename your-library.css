@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Your Custom Font', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+header nav ul li:hover a::before {
+    width: 100%;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main:hover {
+    transform: scale(1.02);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS Variables (Custom Properties) */
+:root {
+    --primary-bg-color: #333;
+    --primary-text-color: #fff;
+}
+
+header {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+footer {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.download-button, .button {
+    display: inline-block;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-button:hover, .button:hover {
+    background-color: #0056a6;
+    transform: scale(1.05);
+}
+
+/* Dropdown menu styles */
+header .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+header .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .dropdown-menu li {
+    padding: 10px;
+}
+
+/* Image container and overlay styles */
+
+/* Future CSS styles and considerations can be added here */
