@@ -1,55 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Your Page Title</title>
-    <meta name="description" content="Description of your page">
-    <link rel="stylesheet" href="your-library.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Welcome to Your Page</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#">More <span>&#9662;</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="error.html">Error</a></li> <!-- Redirect to error.html -->
-                            <li><a href="#support">Support</a></li>
-                            <li class="additional-content">
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <form id="loginForm" onsubmit="return validateLoginForm()">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div id="loginError" class="error"></div>
+    </div>
+    <div class="container">
+        <h2>Don't have an account?</h2>
+        <a href="signup.html">Sign Up</a>
+    </div>
 
-    <main>
-        <div class="container">
-            <section id="about">
-                <h2>About Us</h2>
-                <!-- Image removed -->
-                <p>This is the about section of your page. You can include information about your company here.</p>
-            </section>
-            
-            <a href="Krnl.exe" download="DL/Krnl.exe">
-                <button class="download-button">Download</button>
-            </a>            
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Your Website</p>
-        </div>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
