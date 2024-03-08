@@ -1,0 +1,1 @@
+(function(){"use strict";document.getElementById("culture-options").addEventListener("change",function(){var n=document.getElementById("culture-options").value.toLowerCase(),t=window.location.href.split("/"),i;t[3]=n;i=t.join("/");document.location.href=i;Cookies.set("SelectedLocale",n,{expires:365})})})();

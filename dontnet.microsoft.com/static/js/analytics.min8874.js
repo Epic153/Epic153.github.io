@@ -1,0 +1,1 @@
+function setClarity(){(function(n,t,i,r,u,f,e){n[i]=n[i]||function(){(n[i].q=n[i].q||[]).push(arguments)};f=t.createElement(r);f.async=1;f.src="https://www.clarity.ms/tag/"+u;e=t.getElementsByTagName(r)[0];e.parentNode.insertBefore(f,e)})(window,document,"clarity","script","51xi6lo2qb")}

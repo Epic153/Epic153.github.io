@@ -1,0 +1,1 @@
+$(function(){var n=new CodeEditor({defaultCode:$(".languages-code").html()})});
