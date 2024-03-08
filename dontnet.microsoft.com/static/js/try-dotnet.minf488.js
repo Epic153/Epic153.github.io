@@ -1,1 +1,0 @@
-$(function(){new CodeEditor({defaultCode:$(".example-code").html()})});

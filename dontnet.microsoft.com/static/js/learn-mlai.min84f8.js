@@ -1,1 +1,0 @@
-$(function(){$("img[data-video-src]").click(function(){var n=$(this).data("video-src");$(this).replaceWith('<iframe src="'+n+'" width="450" height="253" allowFullScreen frameBorder="0"><\/iframe>')})});

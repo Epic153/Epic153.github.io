@@ -1,1 +1,0 @@
-$(function(){$(".info-card").click(function(){var n=$(this).attr("data-url");n&&window.open(n)})});

@@ -1,1 +1,0 @@
-(function(){const i="ArrowLeft",r="ArrowRight";let u=document.getElementsByClassName("social")[0],t=Array.from(u.getElementsByTagName("a")),n;for(let u of t)u.addEventListener("focus",()=>{let f=t.length-1;u.addEventListener("keydown",e=>{let o=e.key,s;n=t.indexOf(u);(o==i||o==r)&&(s=o==i?n===0?f:n-1:n===f?n-f:n+1,t[s].focus())})})})();

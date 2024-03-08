@@ -1,1 +1,0 @@
-(function(){"use strict";let n=document.getElementsByClassName("scroll-wrapper");n!=undefined&&n.length>1&&(n[0].scrollLeft=99,n[1].scrollLeft=125)})();
